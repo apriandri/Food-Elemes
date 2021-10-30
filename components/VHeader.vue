@@ -11,7 +11,7 @@
         <div class="hidden md:block flex justify-around">
             <a class="mr-4" href="#home">Home</a>
             <a class="mr-4" href="#about">About</a>
-            <a class="mr-4 relative" href="#promotion">Promotion <span class="navbar__menu-flag">HOT</span></a>
+            <a class="mr-4 relative" href="#promotion">Promotion <span class="hot-css">HOT</span></a>
             <a class="mr-4" href="#blogs">Blogs</a>
             <a  class="mr-4" href="#contactus">Contact Us</a>
         </div>
@@ -27,9 +27,9 @@
 
         <div class="row-span-2 navbar__hero-img">
             <div class="flex justify-center items-center relative">
-                <img class="navbar__hero-img-1" src="~/assets/img/content/Image.png" alt="">
-                <img class="absolute navbar__hero-img-2" src="~/assets/img/content/Image-1.png" alt="">
-                <img class="hidden md:block absolute -bottom-7 -left-14" src="~/assets/img/content/cardProfile.png" alt="">
+                <img class="navbar__hero-img-1" src="~/assets/img/content/shadow.png" alt="">
+                <img class="absolute navbar__hero-img-2" src="~/assets/img/content/menu.png" alt="">
+                <img class="hidden md:block absolute -bottom-7 -left-14" src="~/assets/img/content/rounded-image.png" alt="">
             </div>
         </div>
 

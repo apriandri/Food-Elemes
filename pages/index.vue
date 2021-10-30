@@ -9,12 +9,12 @@
         <template v-slot:mainMenus>
           <div class="flex flex-row mb-5">
             <div v-for="(item, index) in itemCat" :key="index">
-              <card-base :type="'cat-card-item'">
+              <card-base style="background-color: #F3F7D9" :type="'cat-card-item'">
                 <div class="flex flex-col justify-center items-center">
                   <div class="mb-10 mt-2">
                     <img
                       class="w-16"
-                      :src="require(`../assets/img/category/kebab.svg`)"
+                      :src="require(`../assets/img/category/salmon.svg`)"
                       alt=""
                     />
                   </div>
@@ -51,7 +51,7 @@
               <div>
                 <img
                   class="section__trending-img"
-                  src="~/assets/img/trending/pexels-alena-shekhovtcova-6940978 1.png"
+                  src="~/assets/img/trending/donat.png"
                   alt=""
                 />
 
@@ -71,7 +71,7 @@
               <div>
                 <img
                   class="section__trending-img"
-                  src="~/assets/img/trending/pexels-daria-shevtsova-1260968 1.png"
+                  src="~/assets/img/trending/pizza-2.png"
                   alt=""
                 />
 
@@ -91,7 +91,7 @@
               <div>
                 <img
                   class="section__trending-img"
-                  src="~/assets/img/trending/pexels-brett-jordan-842519 1.png"
+                  src="~/assets/img/trending/pizza.png"
                   alt=""
                 />
 
@@ -111,7 +111,7 @@
               <div>
                 <img
                   class="section__trending-img"
-                  src="~/assets/img/trending/pexels-olga-lioncat-7245464 1.png"
+                  src="~/assets/img/trending/sushi.png"
                   alt=""
                 />
 
@@ -131,7 +131,7 @@
               <div>
                 <img
                   class="section__trending-img"
-                  src="~/assets/img/trending/pexels-nishant-aneja-2955819 1.png"
+                  src="~/assets/img/trending/kebab.png"
                   alt=""
                 />
 
@@ -151,7 +151,7 @@
               <div>
                 <img
                   class="section__trending-img"
-                  src="~/assets/img/trending/pexels-oleg-magni-1908674 1.png"
+                  src="~/assets/img/trending/cookies.png"
                   alt=""
                 />
 
@@ -171,7 +171,7 @@
               <div>
                 <img
                   class="section__trending-img"
-                  src="~/assets/img/trending/pexels-karley-saagi-2064449 1.png"
+                  src="~/assets/img/trending/cake.png"
                   alt=""
                 />
 
@@ -191,7 +191,7 @@
               <div>
                 <img
                   class="section__trending-img"
-                  src="~/assets/img/trending/pexels-polina-tankilevitch-6419736 1.png"
+                  src="~/assets/img/trending/food.png"
                   alt=""
                 />
 
@@ -246,7 +246,7 @@ export default {
           id: 1,
           name: "Cupcake",
           qty: 12,
-          img: "pizza.svg",
+          img: "kebab.svg",
         },
         {
           id: 2,
